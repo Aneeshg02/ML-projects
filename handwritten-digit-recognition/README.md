@@ -1,1 +1,17 @@
+# Handwritten Digit Recognition
+## Description
+This project builds an end-to-end machine learning pipeline to classify handwritten digits (0–9) using the MNIST dataset. It combines traditional machine learning (Logistic Regression) with deep learning (Convolutional Neural Networks) to compare performance and demonstrate the effectiveness of CNNs in image classification tasks.
 
+## Dataset
+This project uses the MNIST handwritten digits dataset. The dataset is automatically downloaded using built-in libraries. 
+**Dataset**: MNIST (handwritten digits)
+from tensorflow.keras.datasets import mnist
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
+**Training samples**: 60,000
+**Test samples**: 10,000
+**Image size**: 28 × 28 (grayscale)
+
+## Installation
+git clone https://github.com/your-username/mnist-digit-recognition.git
+
+## 
