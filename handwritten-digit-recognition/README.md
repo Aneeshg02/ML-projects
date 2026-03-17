@@ -14,4 +14,11 @@ from tensorflow.keras.datasets import mnist
 ## Installation
 git clone https://github.com/your-username/mnist-digit-recognition.git
 
-## 
+## Install Dependencies
+pip install -r requirements.txt
+
+## How to Run
+1. Open the Project Directory **cd mnist-digit-recognition**.
+2. Open juypter notebook.
+3. Open source code(ML-project.ipynb).
+4. Run the every cell.
