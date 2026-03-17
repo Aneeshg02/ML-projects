@@ -5,8 +5,7 @@ This project builds an end-to-end machine learning pipeline to classify handwrit
 ## Dataset
 This project uses the MNIST handwritten digits dataset. The dataset is automatically downloaded using built-in libraries. 
 1. **Dataset**: MNIST (handwritten digits)
-
-  from tensorflow.keras.datasets import mnist
+   from tensorflow.keras.datasets import mnist
 
   (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
